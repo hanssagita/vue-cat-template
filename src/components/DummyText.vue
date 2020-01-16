@@ -1,7 +1,7 @@
 <script src="js/dummy-text.js"></script>
 <template>
   <div class="text">
-    Dummy Text
+    {{ $t('dummy') }}
   </div>
 </template>
 
