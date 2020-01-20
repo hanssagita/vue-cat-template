@@ -1,14 +1,14 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Dummy from '@/pages/Dummy.vue'
+const Homepage = () => import(/* webpackChunkName = "p-homepage" */ '@/pages/Homepage')
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'dummy',
-    component: Dummy
+    name: 'Homepage',
+    component: Homepage
   }
 ]
 
