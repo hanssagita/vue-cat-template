@@ -1,9 +1,9 @@
 export default [
   {
-    url: '/dummy',
-    method: 'GET',
+    url: '/backend/gki/user?username=hans&password=hans',
+    method: 'POST',
     response: {
-      data: 'test'
+      data: 'hanstoken'
     }
   }
 ]
