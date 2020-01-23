@@ -8,12 +8,8 @@
       <div class="item">More</div>
     </div>
     <div class="header__right">
-      <div
-        class="item"
-        @click="toggleVisibleLoginPopUp"
-      >Login</div>
+      <div class="item">Logout</div>
     </div>
-    <Login v-if="visibleLoginPopUp" />
   </div>
 </template>
 

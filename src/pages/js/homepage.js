@@ -1,3 +1,7 @@
+const Modal = () => import(/* webpackChunkName = "c-header" */ '@/components/Modal')
 export default {
-  name: 'Homepage'
+  name: 'Homepage',
+  components: {
+    Modal
+  }
 }

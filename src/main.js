@@ -4,7 +4,7 @@ import router from '@/router'
 import store from '@/store'
 import i18n from '@/i18n'
 
-require('@/api-mock')
+if (!process.env.NODE_ENV === 'production') require('@/api-mock')
 
 Vue.config.productionTip = false
 

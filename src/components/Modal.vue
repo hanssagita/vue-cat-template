@@ -1,7 +1,7 @@
 <template>
   <div class="modal">
     <div class="mask"></div>
-    <div class="body">
+    <div class="content">
       <slot name="content"></slot>
     </div>
   </div>
@@ -16,16 +16,15 @@
   height: 100%;
   z-index: 10;
   top: 0;
-  left: 0;
   .mask {
     background-color: rgba(0,0,0,.6);
     z-index: 8;
     width: 100vw;
     height: 100vh;
   }
-  .body {
-    width: 500px;
-    height: 300px;
+  .content {
+    width: 50%;
+    height: 50%;
     margin: auto;
     position: absolute;
     top: 0; left: 0; bottom: 0; right: 0;
